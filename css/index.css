@@ -77,6 +77,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 30px;
 }
 
 .top-content .text-container {
@@ -144,3 +145,195 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.logo {
+    display:flex;
+	float:left;
+    position: relative;
+    margin: 0px 15px 15px 0px;
+
+}
+header {
+    padding-bottom: 36px;
+    padding-top: 100px;
+}
+
+header nav {
+	width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+    font-size: 14px;
+}
+
+header nav a {
+	display: flex;
+    flex-direction: row;
+    text-decoration:none;
+    color:inherit;
+    justify-content: space-evenly;
+
+}
+
+#box1 {
+ background:teal;
+}
+
+#box1 {
+    background:teal;
+   }
+   
+   #box2 {
+    background:gold;
+   }
+   
+   #box3 {
+    background:cadetblue;
+   }
+   
+   #box4 {
+    background:coral;
+   }
+   
+   #box5 {
+    background:crimson;
+   }
+   
+   #box6 {
+    background:forestgreen;
+   }
+   
+   #box7 {
+    background:darkorchid;
+   }
+   
+   #box8 {
+    background:hotpink;
+   }
+   
+   #box9{
+   background: indigo;
+   } 
+   #box10 {
+    background:dodgerblue;
+   }
+   
+
+.about {
+    margin-top: 30px;
+ 
+}
+
+.middle {
+    border-top: 1px dotted black;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   align-content: flex-start;
+   position:relative;
+   overflow:hidden;
+   
+}
+
+.middle .content {
+    width: 372px;
+    margin: 10px;
+}
+
+.middle img {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middle .text-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+button {
+    border: 1px solid black;
+  padding: 0.2em 2em;
+  text-decoration: none;
+  margin: 1em;
+  border-radius: 10px;
+  background: white;
+}
+
+button:hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        /*css animation stretch question*/
+}
+
+.last{
+    border-top: 1px dotted black;
+    margin-top: 30px;
+}
+
+.last .text-container {
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+/*
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+ Semantic HTML gives meaning to the web page.
+For example, <p> indicates that the text is a paragraph and <li> indicates a list. 
+
+2. Name two big differences between display: block; and display: inline;.
+
+   Inline element doesn't cause a line break and doesn't take up the full width of a page. 
+   Block element always starts on a new line and takes up the full width of a page, from left to right.
+
+3. What are the 4 areas of the box model?  Margins, borders, padding, and content. 
+
+4. While using flexbox, what axis does the following property work on: align-items: center? 
+
+ Cross-axis
+
+5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it makes working on codes faster. Each person can push their updated code on team's github page instead of creating a mess by adding each page togther through emails and also allows review each other's code. 
+*/
+.content-row {
+    display: flex;
+    flex-direction:row;
+    margin-bottom:30px;
+  }
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  color: pink;
+}
+
+div.gallery img {
+
+    width:  180px;
+    height: 180px;
+    object-fit: cover;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
